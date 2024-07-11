@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta name="generator" content="Hugo 0.128.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Latent Representation Entropy Density for Distribution Shift Detection</title>
+    <meta name="description" content="Fabio Arnez, Daniel Montoya, Ansgar Radermacher, François Terrier">
+    <meta name="keywords" content='blog, gokarna, hugo'>
+
+    <meta property="og:url" content="http://localhost:1313/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Latent Representation Entropy Density for Distribution Shift Detection">
+    <meta property="og:description" content="Fabio Arnez, Daniel Montoya, Ansgar Radermacher, François Terrier">
+    <meta property="og:image" content="http://localhost:1313/images/LaREx_icon.png">
+    <meta property="og:image:secure_url" content="http://localhost:1313/images/LaREx_icon.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Latent Representation Entropy Density for Distribution Shift Detection">
+    <meta name="twitter:description" content="Fabio Arnez, Daniel Montoya, Ansgar Radermacher, François Terrier">
+    <meta property="twitter:domain" content="http://localhost:1313/">
+    <meta property="twitter:url" content="http://localhost:1313/">
+    <meta name="twitter:image" content="http://localhost:1313/images/LaREx_icon.png">
+
+    
+    <link rel="canonical" href="http://localhost:1313/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.9a920d7dabdbad8363b6a0a94e29a9dfebdb7ee64cfcb193a0145e512ef2bdab.js" integrity="sha256-mpINfavbrYNjtqCpTimp3&#43;vbfuZM/LGToBReUS7yvas="></script>
+
+    
+    
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/images/LaREx_icon.png' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">Latent Representation Entropy Density for Distribution Shift Detection</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://github.com/FabioArnez/LaREx"target="_blank"><span data-feather='github'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target"></span>
+                <a>
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://github.com/FabioArnez/LaREx"target="_blank"><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a>
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+<section class="home-about">
+	<div class="avatar">
+        
+        <img class=size-xs src='/images/LaREx_icon.png' alt="avatar">
+        
+	</div>
+
+    <h1>Latent Representation Entropy Density for Distribution Shift Detection</h1>
+    
+        <h3>Fabio Arnez, Daniel Montoya, Ansgar Radermacher, François Terrier</h3>
+    
+
+</section>
+
+<div class="flex-break"></div>
+
+
+<div class="social-icons">
+    <ul class="social-icons-list">
+        
+        <li class="social-icon">
+            <a href="https://openreview.net/pdf?id=1CKLfh3Ge7"  aria-label="Learn more on googledocs">
+                <img class="svg-inject" src="/svg/icons/googledocs.svg" alt="">
+            </a>
+        </li>
+        
+        <li class="social-icon">
+            <a href="https://github.com/FabioArnez/LaREx"  aria-label="Learn more on github">
+                <img class="svg-inject" src="/svg/icons/github.svg" alt="">
+            </a>
+        </li>
+        
+        <li class="social-icon">
+            <a href="https://x.com/FabioArnez"  aria-label="Learn more on x">
+                <img class="svg-inject" src="/svg/icons/x.svg" alt="">
+            </a>
+        </li>
+        
+        <li class="social-icon">
+            <a href="http://www.linkedin.com/in/fabio-arnez"  aria-label="Learn more on linkedin">
+                <img class="svg-inject" src="/svg/icons/linkedin.svg" alt="">
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+<div class="markdown-content">
+    <p><img src="/images/LaREx_demo.gif" alt="test">
+LaREM confidence score signal in Object Detection with BDD-100K</p>
+<h2 id="abstract">Abstract</h2>
+<p>Distribution shift detection is paramount in safety-critical tasks that rely on Deep Neural Networks (DNNs).
+The detection task entails deriving a confidence score to assert whether a new input sample aligns with the training data distribution of the DNN model.
+While DNN predictive uncertainty offers an intuitive confidence measure, exploring uncertainty-based distribution shift detection with simple sample-based techniques has been relatively overlooked in recent years due to computational overhead and lower performance than plain post-hoc methods.
+This paper proposes using simple sample-based techniques for estimating uncertainty and employing the entropy density from intermediate representations to detect distribution shifts.
+We demonstrate the effectiveness of our method using standard benchmark datasets for out-of-distribution
+detection and across different common perception tasks with convolutional neural network architectures.
+Our scope extends beyond classification, encompassing image-level distribution shift detection for
+object detection and semantic segmentation tasks.
+Our results show that our method&rsquo;s performance is comparable to existing <em>State-of-the-Art</em>
+methods while being computationally faster and lighter than other Bayesian approaches,
+affirming its practical utility.</p>
+<p><img src="/images/LaREx_method.png" alt="test"></p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>This work has been supported by the French government
+under the &ldquo;France 2030” program, as part of the SystemX
+Technological Research Institute within the confiance.ai
+Program (<a href="https://www.confiance.ai">www.confiance.ai</a>).</p>
+<p>This publication was made possible by the use of FactoryIA
+supercomputer, financially supported by the Ile-de-France
+Regional Council.</p>
+
+</div>
+
+
+
+
+        </main><footer class="footer">
+    
+    
+
+    
+    <span>&copy; 2024 CEA List, LSEA</span>
+    
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

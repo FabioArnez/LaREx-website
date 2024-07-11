@@ -1,0 +1,74 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Latent Representation Entropy Density for Distribution Shift Detection'
+theme = 'gokarna'
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = "monokai"
+
+[[menu.main]]
+  identifier = "github"
+  url = "https://github.com/FabioArnez/LaREx"
+  weight = 4
+  # We use feather-icons: https://feathericons.com/
+  pre = "<span data-feather='github'></span>"
+  [menu.main.params]
+    newPage = true
+
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+[params]
+  subtitle = 'UAI - 2024'
+  # URL for the avatar on homepage
+  avatarURL = "/images/LaREx_icon.png"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = "size-xs"
+
+  # social network icons
+  socialIcons = [
+      {name = "googledocs", url = "https://openreview.net/pdf?id=1CKLfh3Ge7"},
+      {name = "github", url = "https://github.com/FabioArnez/LaREx"},
+      {name = "x", url = "https://x.com/FabioArnez"},
+      {name = "linkedin", url = "http://www.linkedin.com/in/fabio-arnez"}
+    ]
+
+  # Description to display on homepage
+  description = "Fabio Arnez, Daniel Montoya, Ansgar Radermacher, François Terrier"
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#FF4D4D"
+
+  # Display "back to top" button on posts
+  ShowBackToTopButton = true
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = """
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  """
+
+  # Keywords relevant for SEO
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+  # If you want to display posts on the homepage, the options are
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  # showPostsOnHomePage = "recent"
+
+  # Footer text
+  footer = "CEA List, LSEA"
