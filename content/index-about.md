@@ -1,5 +1,6 @@
 
 ![larex_demo](/LaREx-website/images/LaREx_demo.gif)
+
 LaREM confidence score signal in Object Detection with BDD-100K
 
 
