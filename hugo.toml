@@ -15,6 +15,10 @@ pygmentsStyle = "monokai"
     newPage = true
 
 [[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
 source = 'assets'
 target = 'assets'
 
