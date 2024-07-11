@@ -1,4 +1,7 @@
-baseURL = 'https://fabioarnez.github.io/LaREx-website'
+# baseURL = 'https://FabioArnez.github.io'
+baseURL = 'https://FabioArnez.github.io/LaREx-website/'
+# relativeURLs = true
+# canonifyURLs = true
 languageCode = 'en-us'
 title = 'Latent Representation Entropy Density for Distribution Shift Detection'
 theme = 'gokarna'
@@ -14,25 +17,25 @@ pygmentsStyle = "monokai"
   [menu.main.params]
     newPage = true
 
-[[module.mounts]]
-source = 'static'
-target = 'static'
+# [[module.mounts]]
+# source = 'static'
+# target = 'static'
 
-[[module.mounts]]
-source = 'assets'
-target = 'assets'
+# [[module.mounts]]
+# source = 'assets'
+# target = 'assets'
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.parser]
-      [markup.goldmark.parser.attribute]
-        block = true
-        title = true
+# [markup]
+#   [markup.goldmark]
+#     [markup.goldmark.parser]
+#       [markup.goldmark.parser.attribute]
+#         block = true
+#         title = true
 
 [params]
   subtitle = 'UAI - 2024'
   # URL for the avatar on homepage
-  avatarURL = "/images/LaREx_icon.png"
+  avatarURL = "/LaREx-website/images/LaREx_icon.png"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = "size-xs"

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latent Representation Entropy Density for Distribution Shift Detection</title>
-    <link>https://fabioarnez.github.io/LaREx-website/</link>
+    <link>https://FabioArnez.github.io/LaREx-website/</link>
     <description>Recent content on Latent Representation Entropy Density for Distribution Shift Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://fabioarnez.github.io/LaREx-website/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://FabioArnez.github.io/LaREx-website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://fabioarnez.github.io/LaREx-website/index-about/</link>
+      <link>https://FabioArnez.github.io/LaREx-website/index-about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fabioarnez.github.io/LaREx-website/index-about/</guid>
+      <guid>https://FabioArnez.github.io/LaREx-website/index-about/</guid>
       <description>LaREM confidence score signal in Object Detection with BDD-100K&#xA;Abstract Distribution shift detection is paramount in safety-critical tasks that rely on Deep Neural Networks (DNNs). The detection task entails deriving a confidence score to assert whether a new input sample aligns with the training data distribution of the DNN model. While DNN predictive uncertainty offers an intuitive confidence measure, exploring uncertainty-based distribution shift detection with simple sample-based techniques has been relatively overlooked in recent years due to computational overhead and lower performance than plain post-hoc methods.</description>
     </item>
   </channel>
