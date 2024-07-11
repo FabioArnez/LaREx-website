@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fabioarnez.github.io/LaREx-website/index-about/</loc>
+    <loc>https://fabioarnez.github.io/index-about/</loc>
   </url><url>
-    <loc>https://fabioarnez.github.io/LaREx-website/categories/</loc>
+    <loc>https://fabioarnez.github.io/categories/</loc>
   </url><url>
-    <loc>https://fabioarnez.github.io/LaREx-website/</loc>
+    <loc>https://fabioarnez.github.io/</loc>
   </url><url>
-    <loc>https://fabioarnez.github.io/LaREx-website/tags/</loc>
+    <loc>https://fabioarnez.github.io/tags/</loc>
   </url>
 </urlset>
