@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://fabioarnez.github.io/LaREx-website/'
 languageCode = 'en-us'
 title = 'Latent Representation Entropy Density for Distribution Shift Detection'
 theme = 'gokarna'
