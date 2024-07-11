@@ -7,7 +7,7 @@ pygmentsStyle = "monokai"
 
 [[menu.main]]
   identifier = "github"
-  url = "https://github.com/FabioArnez/LaREx"
+  url = "https://github.com/FabioArnez/LaREx-website"
   weight = 4
   # We use feather-icons: https://feathericons.com/
   pre = "<span data-feather='github'></span>"
