@@ -1,5 +1,5 @@
 
-![test](/LaREx-website/images/LaREx_demo.gif)
+![larex_demo](/LaREx-website/images/LaREx_demo.gif)
 LaREM confidence score signal in Object Detection with BDD-100K
 
 
@@ -16,7 +16,8 @@ Our results show that our method's performance is comparable to existing _State-
 methods while being computationally faster and lighter than other Bayesian approaches, 
 affirming its practical utility.
 
-![test](/LaREx-website/images/LaREx_method.png)
+![larex_method](/LaREx-website/images/LaREx_method.png)
+LaREx method overview. Score setup (top) and score use at runtime (bottom).
 
 
 ### Acknowledgements
