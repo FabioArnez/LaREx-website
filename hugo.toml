@@ -3,7 +3,7 @@ baseURL = 'https://FabioArnez.github.io/LaREx-website'
 # canonifyURLs = true
 languageCode = 'en-us'
 title = 'Latent Representation Entropy Density for Distribution Shift Detection'
-theme = 'gokarna'
+theme = 'gokarna-fa'
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
 
