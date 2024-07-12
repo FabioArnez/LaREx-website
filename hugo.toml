@@ -1,4 +1,3 @@
-# baseURL = 'https://FabioArnez.github.io'
 baseURL = 'https://FabioArnez.github.io/LaREx-website'
 # relativeURLs = true
 # canonifyURLs = true
@@ -10,27 +9,12 @@ pygmentsStyle = "monokai"
 
 [[menu.main]]
   identifier = "github"
-  url = "https://github.com/FabioArnez/LaREx-website"
+  url = "https://github.com/FabioArnez/LaREx"
   weight = 4
   # We use feather-icons: https://feathericons.com/
   pre = "<span data-feather='github'></span>"
   [menu.main.params]
     newPage = true
-
-# [[module.mounts]]
-# source = 'static'
-# target = 'static'
-
-# [[module.mounts]]
-# source = 'assets'
-# target = 'assets'
-
-# [markup]
-#   [markup.goldmark]
-#     [markup.goldmark.parser]
-#       [markup.goldmark.parser.attribute]
-#         block = true
-#         title = true
 
 [params]
   subtitle = 'UAI - 2024'
@@ -41,11 +25,17 @@ pygmentsStyle = "monokai"
   avatarSize = "size-xs"
 
   # social network icons
+  # socialIcons = [
+  #     {name = "googledocs", url = "https://openreview.net/pdf?id=1CKLfh3Ge7"},
+  #     {name = "github", url = "https://github.com/FabioArnez/LaREx"},
+  #     {name = "x", url = "https://x.com/FabioArnez"},
+  #     {name = "linkedin", url = "http://www.linkedin.com/in/fabio-arnez"}
+  #   ]
   socialIcons = [
-      {name = "googledocs", url = "https://openreview.net/pdf?id=1CKLfh3Ge7"},
-      {name = "github", url = "https://github.com/FabioArnez/LaREx"},
-      {name = "x", url = "https://x.com/FabioArnez"},
-      {name = "linkedin", url = "http://www.linkedin.com/in/fabio-arnez"}
+      {name = "/LaREx-website/svg/icons/googledocs", url = "https://openreview.net/pdf?id=1CKLfh3Ge7"},
+      {name = "/LaREx-website/svg/icons/github", url = "https://github.com/FabioArnez/LaREx"},
+      {name = "/LaREx-website/svg/icons/x", url = "https://x.com/FabioArnez"},
+      {name = "/LaREx-website/svg/icons/linkedin", url = "http://www.linkedin.com/in/fabio-arnez"}
     ]
 
   # Description to display on homepage
