@@ -3,6 +3,8 @@
 
 LaREM confidence score signal in Object Detection with BDD-100K
 
+## TL;DR
+We use the entropy from _noisy_ representations to detect distribution shifts.
 
 ## Abstract
 Distribution shift detection is paramount in safety-critical tasks that rely on Deep Neural Networks (DNNs). 
