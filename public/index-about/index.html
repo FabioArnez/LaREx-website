@@ -134,7 +134,7 @@
         <p><img src="/LaREx-website/images/LaREx_demo.gif" alt="larex_demo"></p>
 <p>LaREM confidence score signal in Object Detection with BDD-100K</p>
 <h2 id="tldr">TL;DR</h2>
-<p>We use the entropy from <em>noisy</em> representations to detect distribution shifts.</p>
+<p>We use the entropy from <em>noisy</em> representations (obtained with dropblock or dropout) to detect distribution shifts.</p>
 <h2 id="abstract">Abstract</h2>
 <p>Distribution shift detection is paramount in safety-critical tasks that rely on Deep Neural Networks (DNNs).
 The detection task entails deriving a confidence score to assert whether a new input sample aligns with the training data distribution of the DNN model.
