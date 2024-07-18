@@ -4,7 +4,7 @@
 LaREM confidence score signal in Object Detection with BDD-100K
 
 ## TL;DR
-We use the entropy from _noisy_ representations (obtained with Dropblock or Dropout) to detect distribution shifts.
+We use the entropy from _noisy_ representations (obtained with dropblock or dropout) to detect distribution shifts.
 
 ## Abstract
 Distribution shift detection is paramount in safety-critical tasks that rely on Deep Neural Networks (DNNs). 
