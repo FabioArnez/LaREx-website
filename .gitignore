@@ -1,0 +1,12 @@
+# IDE configurations
+.idea
+.vscode
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Misc
+_sass/dist
+assets/js/dist
+
+# macOS
+.DS_Store
