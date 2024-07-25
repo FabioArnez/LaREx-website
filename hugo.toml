@@ -34,8 +34,8 @@ pygmentsStyle = "monokai"
   socialIcons = [
       {name = "/LaREx-website/svg/icons/googledocs", url = "https://openreview.net/pdf?id=1CKLfh3Ge7"},
       {name = "/LaREx-website/svg/icons/github", url = "https://github.com/FabioArnez/LaREx"},
-      {name = "/LaREx-website/svg/icons/x", url = "https://x.com/FabioArnez"},
-      {name = "/LaREx-website/svg/icons/linkedin", url = "http://www.linkedin.com/in/fabio-arnez"}
+      {name = "/LaREx-website/svg/icons/x", url = "https://x.com/FabioArnez/status/1816131333216686245"},
+      {name = "/LaREx-website/svg/icons/linkedin", url = "https://www.linkedin.com/posts/fabio-arnez_uai2024-uai2024-ai-activity-7221937110084128771-h0nP?utm_source=share&utm_medium=member_desktop"}
     ]
 
   # Description to display on homepage
